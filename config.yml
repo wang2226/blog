@@ -1,5 +1,5 @@
 baseURL: "https://brucehrwang.github.io/"
-title: brucehrwang
+title: bruce's blog
 paginate: 5
 theme: PaperMod
 
@@ -16,7 +16,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
+  title: Bruce's Blog
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
@@ -43,17 +43,17 @@ params:
   tocopen: false
 
   assets:
-    # disableHLJS: true # to disable highlight.js
+    disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    # safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
-    icon: /apple-touch-icon.png
+    text: "brucehrwang"
+    icon: /android-chrome-512x512.png
     iconHeight: 35
 
   # profile-mode
@@ -73,16 +73,16 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Welcome to my blog \U0001F44B"
+    Content: I post stuff about deep learning here. I am documenting my learning notes in this blog.
 
   socialIcons:
+    - name: home
+      url: "https://brucehrwang.com/"
     - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+      url: "https://twitter.com/haoranwang0418"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/wang2226"
 
   analytics:
     google:
@@ -114,18 +114,11 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: home
+      name: home
+      url: https://brucehrwang.com/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
