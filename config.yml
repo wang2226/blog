@@ -19,7 +19,7 @@ params:
   title: Bruce's Blog
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: Bruce
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -74,11 +74,11 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Welcome to my blog \U0001F44B"
-    Content: I post stuff about deep learning here. I am documenting my learning notes in this blog.
+    Content: I post random stuff here.
 
   socialIcons:
     - name: home
-      url: "https://brucehrwang.com/"
+      url: "https://brucehrwang.com/academic/home"
     - name: twitter
       url: "https://twitter.com/haoranwang0418"
     - name: github
