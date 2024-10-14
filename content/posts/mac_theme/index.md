@@ -17,17 +17,13 @@ sudo apt install gnome-tweaks gnome-shell-extension-manager
 Next, clone the [WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme) repo, open the repo and run the installation script:
 
 ```sh
-./install.sh -m -t all -l -c Dark -N stable --normal --round -i ubuntu
+./install.sh
 ```
 
-Once it is done, it is time to run the tweaks script:
+The next step is to switch to **mac-themed icons**.
+For Ubuntu 22.04, you can install MacOS Icon pack from [https://www.gnome-look.org/p/2023325](https://www.gnome-look.org/p/2023325). Once downloaded, go to your home directory and create a `.icons` folder and move the downloaded icon packs into the folder. You can press `ctrl+h` to view hidden folders in the file browser.
 
-```sh
-sudo ./tweaks.sh -g
-sudo ./tweaks.sh -f
-```
-
-The next step is to install MacOS Icon pack from [https://www.gnome-look.org/p/2023325](https://www.gnome-look.org/p/2023325). Once downloaded, go to your home directory and create a `.icon` folder and move the downloaded icon packs into the folder. You can press `ctrl+h` to view hidden folders in the file browser.
+For Ubuntu 24.04, you can also download icons from this repo: [https://github.com/vinceliuice/WhiteSur-icon-theme](https://github.com/vinceliuice/WhiteSur-icon-theme)
 
 ![](./images/icon.png)
 ![](./images/icon-1.png)
@@ -45,5 +41,18 @@ Open the tweaks app from the app browser and make the following changes:
 ![](./images/tweaks-1.png)
 
 From here, you can play around with different settings in tweaks and customize it.
+Some additional extensions that I recommend include:
 
-Finally, you can dowload MacOS wallpapers here: [https://512pixels.net/projects/default-mac-wallpapers-in-5k/](https://512pixels.net/projects/default-mac-wallpapers-in-5k/).
+* `Apps Menu`: add an app menu in the top bar.
+* `Dash to Dock`: make the dock mac-like with customizations.
+* `Freon`: add system monitor in the top bar such as CPU temp, fan speed.
+* `Logo Menu`: add the Apple logo in the top bar.
+
+![](./images/more_extensions.png)
+
+Finally, it is time for wall papers.
+For **static wallpaper**, you can dowload MacOS wallpapers here: [https://512pixels.net/projects/default-mac-wallpapers-in-5k/](https://512pixels.net/projects/default-mac-wallpapers-in-5k/).
+
+For **dynamic wallpaper**, you can follow the instructions here: [https://github.com/saint-13/Linux_Dynamic_Wallpapers](https://github.com/saint-13/Linux_Dynamic_Wallpapers).
+
+To make the customization even further, you can change the system font to `SF Pro Display`, which is being used in MacOS and unique to Apple. Here is how to do it: [https://www.reddit.com/r/unixporn/comments/4tbc7j/you_can_easily_use_apples_san_francisco_font_in/](https://www.reddit.com/r/unixporn/comments/4tbc7j/you_can_easily_use_apples_san_francisco_font_in/)
